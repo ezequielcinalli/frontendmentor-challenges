@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="min-h-screen bg-white flex items-center justify-center">
+    <div class="bg-dark-desaturated-blue md:flex md:flex-row-reverse card">
+      <div class="card-image-container md:w-1/2">
+        <picture>
+          <source srcset="./images/image-header-desktop.jpg" media="(min-width: 768px)" />
+          <img class="mix-blend-multiply opacity-75" src="./images/image-header-mobile.jpg" alt="image-header-mobile" />
+        </picture>
+      </div>
+
+      <div class="md:w-1/2 md:my-auto">
+        <div class="text-center md:text-left px-11">
+          <p class="font-bold text-2xl font-inter mt-5 mb-4 md:text-3xl">Get <span
+              class="text-soft-violet">insights</span> that
+            help
+            your
+            business grow.</p>
+
+          <p
+            class="card-description text-slightly-transparent-white-paragraph text-xs font-inter leading-5 md:text-sm md:mt-6">
+            Discover
+            the
+            benefits of data
+            analytics and
+            make better decisions regarding revenue,
+            customer
+            experience, and overall efficiency.
+          </p>
+
+          <div class="mt-8 md:mt-16 md:flex">
+            <div class="mb-4 md:mr-12">
+              <p class="font-inter font-bold text-xl text-white">10k+</p>
+              <p class="uppercase text-xxs text-slightly-transparent-white-heading font-inter">companies</p>
+            </div>
+            <div class="mb-4 md:mr-12">
+              <p class="font-inter font-bold text-xl text-white">314</p>
+              <p class="uppercase text-xxs text-slightly-transparent-white-heading font-inter">templates</p>
+            </div>
+            <div class="mb-4 md:mr-8">
+              <p class="font-inter font-bold text-xl text-white">12M+</p>
+              <p class="uppercase text-xxs text-slightly-transparent-white-heading font-inter">queries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/ezequielcinalli" target="_blank">Ezequiel Cinalli</a>.
+      </div> -->
+
+</body>
+
+</html>
