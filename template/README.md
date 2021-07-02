@@ -16,11 +16,11 @@ Users should be able to:
 
 Mobile solution
 
-![](./screenshot-mobile.png)
+![](./design/mobile-design.jpg)
 
 Desktop solution
 
-![](./screenshot-desktop.png)
+![](./design/desktop-design.jpg)
 
 ## My process
 
