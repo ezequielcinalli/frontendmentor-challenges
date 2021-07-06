@@ -74,7 +74,8 @@ body {
 
   .faq {
     margin-left: 80px;
-    margin-right: 80px; }
+    margin-right: 80px;
+    width: 400px; }
 
   .faq h1 {
     text-align: left; } }
