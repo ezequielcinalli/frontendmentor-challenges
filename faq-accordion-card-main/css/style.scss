@@ -1,0 +1,30 @@
+/* text */
+$very-dark-desaturated-blue: hsl(238, 29%, 16%);
+$soft-red: hsl(14, 88%, 65%);
+$very-dark-grayish-blue: hsl(237, 12%, 33%);
+$dark-grayish-blue: hsl(240, 6%, 50%);
+/* gradient */
+$soft-violet: hsl(273, 75%, 66%);
+$soft-blue: hsl(240, 73%, 65%);
+/* dividers */
+$light-grayish-blue: hsl(240, 5%, 91%);
+// media
+$media-width-desktop : 1200px;
+
+body {
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    background: linear-gradient($soft-violet, $soft-blue);
+    height: 100vh;
+    padding-top: 140px;
+    box-sizing: border-box;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+@import "./images.scss";
+@import "./faq.scss";
+@import "./question.scss";

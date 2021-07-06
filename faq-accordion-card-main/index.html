@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Faq accordion card</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="faq-container">
+    <img id="box-desktop" src="./images/illustration-box-desktop.svg" alt="illustration-box-desktop">
+    <div class="images">
+      <picture>
+        <source srcset="./images/illustration-woman-online-desktop.svg" media="(min-width:1200px)">
+        <img id="illustration-woman" src="./images/illustration-woman-online-mobile.svg" alt="">
+      </picture>
+      <picture>
+        <source srcset="./images/bg-pattern-desktop.svg" media="(min-width:1200px)">
+        <img id="bg-pattern" src=" ./images/bg-pattern-mobile.svg" alt="bg-pattern-mobile">
+      </picture>
+    </div>
+
+    <div class="faq">
+      <!-- <div> -->
+      <h1 class="text-bold">FAQ</h1>
+
+      <!-- question 1 -->
+      <div id="question1" class="question">
+        <h2>
+          How many team members can I invite?
+          <span><img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></span>
+        </h2>
+        <p>You can invite up to 2 additional users on the Free plan. There is no limit on
+          team members for the Premium plan.</p>
+      </div>
+
+      <!-- question 2 -->
+      <div id="question2" class="question question-openn">
+        <h2>
+          What is the maximum file upload size?
+          <span><img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></span>
+        </h2>
+        <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+      </div>
+
+      <!-- question 3 -->
+      <div id="question3" class="question">
+        <h2>
+          How do I reset my password?
+          <span><img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></span>
+        </h2>
+        <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.</p>
+      </div>
+
+      <!-- question 4 -->
+      <div id="question4" class="question">
+        <h2>
+          Can I cancel my subscription?
+          <span><img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></span>
+        </h2>
+        <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+      </div>
+
+      <!-- question 5 -->
+      <div id="question5" class="question">
+        <h2>
+          Do you provide additional support?
+          <span><img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></span>
+        </h2>
+        <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </p>
+      </div>
+
+      <!-- </div> -->
+
+    </div>
+  </section>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

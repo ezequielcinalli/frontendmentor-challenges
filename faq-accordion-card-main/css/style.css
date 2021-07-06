@@ -1,0 +1,112 @@
+/* text */
+/* gradient */
+/* dividers */
+body {
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  background: linear-gradient(#af67e9, #6565e7);
+  height: 100vh;
+  padding-top: 140px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.images img {
+  margin-top: -107px; }
+
+#box-desktop {
+  display: none; }
+
+#illustration-woman {
+  transform: translateX(-13px); }
+
+@media screen and (min-width: 1200px) {
+  .images {
+    flex-direction: row;
+    max-height: 500px;
+    overflow: hidden;
+    margin-left: -98px; }
+
+  .images img {
+    margin-top: 0; }
+
+  #box-desktop {
+    z-index: 10;
+    display: inline;
+    margin-left: -93px;
+    margin-bottom: -100px; }
+
+  #illustration-woman {
+    transform: translateX(0);
+    margin-left: -80px; }
+
+  #bg-pattern {
+    margin-left: -980px;
+    margin-top: -180px; } }
+.faq-container {
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 20px;
+  display: inline-block;
+  width: 400px;
+  max-width: 90%; }
+
+.faq {
+  box-sizing: border-box;
+  padding: 10px 16px 40px 16px; }
+
+.faq h1 {
+  text-align: center;
+  font-size: 32px; }
+
+@media screen and (min-width: 1200px) {
+  .faq-container {
+    display: flex;
+    align-items: center;
+    width: inherit; }
+
+  .faq {
+    margin-left: 80px;
+    margin-right: 80px; }
+
+  .faq h1 {
+    text-align: left; } }
+.question {
+  border-bottom: 1px solid #e7e7e9;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: block; }
+
+.question h2 {
+  color: #1d1e35;
+  font-size: 14px;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between; }
+
+.question h2:hover {
+  color: #f47c57; }
+
+.question p {
+  display: none;
+  color: #787887;
+  margin-right: 40px;
+  line-height: 1.5; }
+
+.question-open h2 {
+  font-weight: bold; }
+
+.question-open img {
+  transform: scaleY(-1); }
+
+.question-open p {
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */

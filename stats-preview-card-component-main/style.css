@@ -1,40 +1,47 @@
-.text-very-dark-blue {
-  color: #090b1a; }
-
 .bg-dark-desaturated-blue {
-  background-color: #1b1938; }
+  background-color: #1b1938;
+}
 
 .text-soft-violet {
-  color: #aa5cdb; }
+  color: #aa5cdb;
+}
 
 .text-slightly-transparent-white-paragraph {
-  color: rgba(255, 255, 255, 0.75); }
+  color: rgba(255, 255, 255, 0.75);
+}
 
 .text-slightly-transparent-white-heading {
-  color: rgba(255, 255, 255, 0.6); }
+  color: rgba(255, 255, 255, 0.6);
+}
 
 .font-inter {
-  font-family: Inter, sans-serif; }
+  font-family: Inter, sans-serif;
+}
 
 .font-lexend-deca {
-  font-family: "Lexend Deca", sans-serif; }
+  font-family: 'Lexend Deca', sans-serif;
+}
 
 .text-xxs {
-  font-size: 11px; }
+  font-size: 11px;
+}
 
 body {
-  background-color: #06091d;
-  color: white; }
+  color: white;
+}
 
 .card {
-  max-width: 654px; }
+  max-width: 654px;
+}
 
 .card-image-container {
   background-color: #aa5cdb;
-  display: inline-block; }
+  display: inline-block;
+}
 
 @media screen and (min-width: 768px) {
   .card {
-    max-width: 1080px; } }
-
+    max-width: 1080px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

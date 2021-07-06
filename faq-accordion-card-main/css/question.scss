@@ -1,0 +1,37 @@
+.question {
+    border-bottom: 1px solid $light-grayish-blue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+}
+
+.question h2 {
+    color: $very-dark-desaturated-blue;
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question h2:hover {
+    color: $soft-red;
+}
+
+.question p {
+    display: none;
+    color: $dark-grayish-blue;
+    margin-right: 40px;
+    line-height: 1.5;
+}
+
+.question-open h2 {
+    font-weight: bold;
+}
+
+.question-open img {
+    transform: scaleY(-1);
+}
+
+.question-open p {
+    display: block;
+}

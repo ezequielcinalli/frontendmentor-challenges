@@ -8,6 +8,7 @@ This is a repository with challenging projects from the [Frontend Mentor](https:
   - Stats preview card component
   - Profile card component
   - 3 column preview card
+  - Faq accordion card
 - [Junior Difficulty](#junior-difficulty)
 
 ## Newbie Difficulty
@@ -35,5 +36,13 @@ This is a repository with challenging projects from the [Frontend Mentor](https:
   - [Live demo link](https://ezequielcinalli.github.io/frontendmentor-challenges/3-column-preview-card-component-main)
 
   ![3 column preview card component solution](3-column-preview-card-component-main/design/desktop-design.jpg)
+
+- Faq accordion card
+
+  - [Repository link](https://github.com/ezequielcinalli/frontendmentor-challenges/tree/main/faq-accordion-card-main)
+
+  - [Live demo link](https://ezequielcinalli.github.io/frontendmentor-challenges/faq-accordion-card-main)
+
+  ![Faq accordion card solution](faq-accordion-card-main/design/desktop-design.jpg)
 
 ## Junior Difficulty

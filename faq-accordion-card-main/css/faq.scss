@@ -1,0 +1,33 @@
+.faq-container {
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 20px;
+    display: inline-block;
+    width:400px;
+    max-width: 90%;
+}
+
+.faq {
+    box-sizing: border-box;
+    padding: 10px 16px 40px 16px;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+@media screen and (min-width:$media-width-desktop){
+    .faq-container{
+        display:flex;
+        align-items:center;
+        width:inherit;
+    }
+    .faq{
+        margin-left:80px;
+        margin-right:80px;
+    }
+    .faq h1{
+        text-align: left;
+    }
+}
