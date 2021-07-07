@@ -9,6 +9,7 @@ This is a repository with challenging projects from the [Frontend Mentor](https:
   - Profile card component
   - 3 column preview card
   - Faq accordion card
+  - Social proof section
 - [Junior Difficulty](#junior-difficulty)
 
 ## Newbie Difficulty
@@ -44,5 +45,13 @@ This is a repository with challenging projects from the [Frontend Mentor](https:
   - [Live demo link](https://ezequielcinalli.github.io/frontendmentor-challenges/faq-accordion-card-main)
 
   ![Faq accordion card solution](faq-accordion-card-main/design/desktop-design.jpg)
+
+- Social proof section
+
+  - [Repository link](https://github.com/ezequielcinalli/frontendmentor-challenges/tree/main/social-proof-section-master)
+
+  - [Live demo link](https://ezequielcinalli.github.io/frontendmentor-challenges/social-proof-section-master)
+
+  ![Social proof section solution](social-proof-section-master/design/desktop-design.jpg)
 
 ## Junior Difficulty
