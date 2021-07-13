@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 13px;
+  font-family: "Manrope", sans-serif; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #ecf2f8; }
+
+.card {
+  margin: 0 25px;
+  max-width: 380px; }
+
+.card-image {
+  max-height: 215px;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
+
+.card-image img {
+  display: block;
+  width: 100%; }
+
+@media screen and (min-width: 800px) {
+  .card {
+    display: flex;
+    max-width: 730px; }
+
+  .card-image {
+    max-height: inherit;
+    min-width: 290px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px; }
+
+  .card-image img {
+    width: inherit;
+    height: 290.833px; } }
+.card-body {
+  background-color: #fff;
+  padding: 30px 30px 12px 30px;
+  position: relative;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+
+.card-body-title {
+  color: #48556a;
+  font-weight: 700;
+  font-size: 1.3em;
+  margin-bottom: 1em; }
+
+.card-body-paragraph {
+  color: #6d7f97;
+  margin-bottom: 2em;
+  font-weight: 500;
+  font-size: 1.03em;
+  line-height: 1.5; }
+
+.card-footer {
+  display: flex; }
+  .card-footer-image {
+    width: 40px;
+    border-radius: 50%; }
+  .card-footer-name {
+    margin-left: 1em;
+    font-weight: 700;
+    color: #48556a; }
+  .card-footer-date {
+    color: #9eafc2;
+    margin-left: 1em;
+    margin-top: 2px; }
+
+.tooltip {
+  align-self: center;
+  margin-left: auto; }
+
+.tooltip:hover .tooltip-box {
+  display: flex;
+  align-items: center; }
+
+.tooltip:hover .icon-share {
+  border: 10px solid #6d7f97; }
+
+.icon-share {
+  position: relative;
+  z-index: 10;
+  border: 10px solid #ecf2f8;
+  border-radius: 50%;
+  background-color: #ecf2f8; }
+
+.tooltip-box {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #48556a;
+  color: #9eafc2;
+  font-size: 1.1em;
+  letter-spacing: 3px;
+  padding: 25px 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+
+.tooltip-box-img {
+  margin-left: 15px; }
+
+@media screen and (min-width: 800px) {
+  .card-body {
+    padding-bottom: 25px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px; }
+
+  .card-body-title {
+    font-size: 1.6em; }
+
+  .tooltip {
+    position: relative; }
+
+  .tooltip-box {
+    bottom: 60px;
+    left: -83px;
+    right: inherit;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 0.8em; }
+
+  .tooltip-box::after {
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 10px);
+    content: "";
+    display: block;
+    border-top: 10px solid #48556a;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent; }
+
+  .tooltip-box-img {
+    height: 16px;
+    width: 16px; } }
+
+/*# sourceMappingURL=style.css.map */
