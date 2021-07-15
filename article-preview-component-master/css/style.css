@@ -85,9 +85,8 @@ body {
   align-self: center;
   margin-left: auto; }
 
-.tooltip:hover .tooltip-box {
-  display: flex;
-  align-items: center; }
+img.border-icon-share {
+  border: 10px solid #6d7f97; }
 
 .tooltip:hover .icon-share {
   border: 10px solid #6d7f97; }
@@ -115,6 +114,10 @@ body {
 
 .tooltip-box-img {
   margin-left: 15px; }
+
+.flex {
+  display: flex;
+  align-items: center; }
 
 @media screen and (min-width: 800px) {
   .card-body {

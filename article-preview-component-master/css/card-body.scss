@@ -47,11 +47,9 @@
     margin-left: auto;
 }
 
-.tooltip:hover .tooltip-box {
-    display: flex;
-    align-items: center;
+img.border-icon-share {
+    border: 10px solid $desaturatedDarkBlue;
 }
-
 .tooltip:hover .icon-share {
     border: 10px solid $desaturatedDarkBlue;
 }
@@ -82,6 +80,15 @@
 
 .tooltip-box-img {
     margin-left: 15px;
+}
+
+// .tooltip:hover .tooltip-box {
+//     display: flex;
+//     align-items: center;
+// }
+.flex {
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (min-width: $media-width-desktop) {
