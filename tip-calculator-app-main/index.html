@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/style.css" type="text/css" />
+        <title>Frontend Mentor | Tip calculator app</title>
+    </head>
+    <body>
+        <section>
+            <div class="container-title">
+                <img class="title" src="./images/logo.svg" alt="logo" />
+            </div>
+            <div class="calculator">
+                <div>
+                    <div>
+                        <div class="flex">
+                            <p class="label-options">Bill</p>
+                            <p id="label-error-bill" class="label-error">
+                                Can't be zero
+                            </p>
+                        </div>
+                        <div class="big-rectangle">
+                            <img
+                                class="icon-input"
+                                height="18px"
+                                src="./images/icon-dollar.svg"
+                                alt="icon-dollar"
+                            />
+                            <input
+                                type="text"
+                                class="input-options"
+                                id="bill"
+                                value="0"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="container-tip">
+                        <div class="flex w-100">
+                            <p class="label-options">Select Tip %</p>
+                            <p id="label-error-tip" class="label-error">
+                                You must select a tip
+                            </p>
+                        </div>
+                        <label class="tip label-input">
+                            <input type="radio" name="tip" value="5" /> 5%
+                        </label>
+                        <label class="tip label-input">
+                            <input type="radio" name="tip" value="10" /> 10%
+                        </label>
+                        <label class="tip label-input">
+                            <input type="radio" name="tip" value="15" /> 15%
+                        </label>
+                        <label class="tip label-input">
+                            <input type="radio" name="tip" value="25" /> 25%
+                        </label>
+                        <label class="tip label-input">
+                            <input type="radio" name="tip" value="50" /> 50%
+                        </label>
+                        <label class="tip label-input tip-custom">
+                            <input
+                                type="radio"
+                                id="custom-radio"
+                                name="tip"
+                                value="0"
+                            />
+                            <input
+                                type="text"
+                                id="custom"
+                                class="tip-custom"
+                                value="Custom"
+                            />
+                        </label>
+                    </div>
+
+                    <div>
+                        <div class="flex">
+                            <p class="label-options">Number of People</p>
+                            <p id="label-error-people" class="label-error">
+                                Can't be zero
+                            </p>
+                        </div>
+                        <div class="big-rectangle">
+                            <img
+                                class="icon-input"
+                                height="18px"
+                                src="./images/icon-person.svg"
+                                alt="icon-person"
+                            />
+                            <input
+                                type="text"
+                                class="input-options"
+                                id="people"
+                                value="0"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-total">
+                    <div>
+                        <div class="item-total">
+                            <div>
+                                <p class="label-total">Tip Amount</p>
+                                <p class="label-person">/ person</p>
+                            </div>
+                            <p class="number-total">
+                                $<span id="tip-amount-person">0.00</span>
+                            </p>
+                        </div>
+
+                        <div class="item-total">
+                            <div>
+                                <p class="label-total">Total</p>
+                                <p class="label-person">/ person</p>
+                            </div>
+                            <p class="number-total">
+                                $<span id="total-person">0.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <button id="reset" class="reset-total" disabled>
+                        RESET
+                    </button>
+                </div>
+            </div>
+        </section>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
