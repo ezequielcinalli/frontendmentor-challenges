@@ -11,6 +11,7 @@ This is a repository with challenging projects from the [Frontend Mentor](https:
     -   Faq accordion card
     -   Social proof section
     -   Article preview component
+    -   Four card feature section
 -   [Junior Difficulty](#junior-difficulty)
     -   Tip calculator app
 
@@ -63,6 +64,14 @@ This is a repository with challenging projects from the [Frontend Mentor](https:
     -   [Live demo link](https://ezequielcinalli.github.io/frontendmentor-challenges/article-preview-component-master)
 
     ![Article preview componentsolution](article-preview-component-master/design/desktop-design.jpg)
+
+-   Four card feature section
+
+    -   [Repository link](https://github.com/ezequielcinalli/frontendmentor-challenges/tree/main/four-card-feature-section-master)
+
+    -   [Live demo link](https://ezequielcinalli.github.io/frontendmentor-challenges/four-card-feature-section-master)
+
+    ![Four card feature section](four-card-feature-section-master/design/desktop-design.jpg)
 
 ## Junior Difficulty
 

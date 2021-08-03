@@ -1,0 +1,142 @@
+//COLORS PRIMARY
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+//COLORS NEUTRAL
+$veryDarkBlue: hsl(234, 12%, 34%);
+$grayishBlue: hsl(229, 6%, 66%);
+$veryLightGray: hsl(0, 0%, 97%);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    background-color: $veryLightGray;
+}
+
+.four-card-feature {
+    margin: 0 2rem;
+}
+
+.header {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.header__title {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.header__title--bold {
+    font-weight: 600;
+    color: $veryDarkBlue;
+    display: block;
+}
+
+.header__description {
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 0.95rem;
+    text-align: center;
+    color: $grayishBlue;
+}
+
+.card {
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    max-width: 300px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 16px $grayishBlue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card--cyan {
+    border-top: 4px solid $cyan;
+}
+
+.card--red {
+    border-top: 4px solid $red;
+}
+
+.card--orange {
+    border-top: 4px solid $orange;
+}
+
+.card--blue {
+    border-top: 4px solid $blue;
+}
+
+.card__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $veryDarkBlue;
+}
+
+.card__description {
+    font-size: 0.85rem;
+    color: $grayishBlue;
+    margin-top: 0.25rem;
+}
+
+.card__image {
+    display: block;
+    margin: 2rem 0.5rem 0.5rem auto;
+}
+
+@media (min-width: 800px) {
+    .four-card-feature {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header__title {
+        font-size: 2rem;
+    }
+
+    .header__description {
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cards-container {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .card {
+        margin-bottom: 0;
+    }
+
+    .card:first-child {
+        grid-row: 2 / span 2;
+        grid-column: 1 / span 1;
+    }
+
+    .card:nth-child(2) {
+        grid-row: 1 / span 2;
+        grid-column: 2 / span 1;
+    }
+
+    .card:nth-child(3) {
+        grid-row: 3 / span 2;
+        grid-column: 2 / span 1;
+    }
+
+    .card:last-child {
+        grid-row: 2 / span 2;
+        grid-column: 3 / span 1;
+    }
+}
