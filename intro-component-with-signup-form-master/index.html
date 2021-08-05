@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <section class="signup">
+      <div class="signup__title-wrapper">
+        <h1 class="signup__title">Learn to code by watching others</h1>
+        <p class="signup__description">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+
+      <div>
+        <p class="signup__alert">
+          <span class="signup__alert--bold">Try it free 7 days</span> then
+          $20/mo. thereafter
+        </p>
+
+        <form class="signup__form" id="form-signup" action="">
+          <div class="form__group">
+            <input
+              class="form__input"
+              type="text"
+              placeholder="First name"
+              id="input-first-name"
+            />
+            <img
+              id="icon-first-name"
+              class="form__icon"
+              src="images/icon-error.svg"
+              alt="icon"
+            />
+            <p class="form__error" id="error-first-name">
+              First name cannot be empty
+            </p>
+          </div>
+
+          <div class="form__group">
+            <input
+              class="form__input"
+              type="text"
+              placeholder="Last name"
+              id="input-last-name"
+            />
+            <img
+              id="icon-last-name"
+              class="form__icon"
+              src="images/icon-error.svg"
+              alt="icon"
+            />
+
+            <p class="form__error" id="error-last-name">
+              Last Name cannot be empty
+            </p>
+          </div>
+
+          <div class="form__group">
+            <input
+              class="form__input"
+              type="text"
+              placeholder="Email Address"
+              id="input-email"
+            />
+            <img
+              id="icon-email"
+              class="form__icon"
+              src="images/icon-error.svg"
+              alt="icon"
+            />
+            <p class="form__error" id="error-email">
+              Looks like this is not an email
+            </p>
+          </div>
+
+          <div class="form__group">
+            <input
+              class="form__input"
+              type="password"
+              placeholder="Password"
+              id="input-password"
+            />
+            <img
+              id="icon-password"
+              class="form__icon"
+              src="images/icon-error.svg"
+              alt="icon"
+            />
+            <p class="form__error" id="error-password">
+              Password cannot be empty
+            </p>
+          </div>
+
+          <button class="form__button" type="submit">
+            CLAIM YOUR FREE TRIAL
+          </button>
+
+          <p class="form__terms">
+            By clicking the button, you are agreeing to our
+            <a class="form__terms--highlight" href=""> Terms and Services </a>
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
